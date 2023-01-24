@@ -277,3 +277,14 @@
   top: 58px;
   left: 50px;
 }
+
+.destinations-block__item:nth-child(3) {
+  position: relative;
+}
+
+.destinations-block__decore {
+  position: absolute;
+  right: -65px;
+  bottom: 50px;
+  z-index: -5;
+}
