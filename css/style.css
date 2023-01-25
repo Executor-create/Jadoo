@@ -139,6 +139,7 @@
   color: var(--main-text-color);
   font-size: 18px;
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .services-block__title {
@@ -200,6 +201,7 @@
 }
 
 .destinations-block {
+  height: 720px;
 }
 
 .destinations-block__container {
@@ -215,6 +217,7 @@
 .destinations-block__subtitle {
   color: var(--main-text-color);
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .destinations-block__items-wrapper {
@@ -287,4 +290,96 @@
   right: -65px;
   bottom: 50px;
   z-index: -5;
+}
+
+.book-block {
+  height: 700px;
+}
+
+.book-block__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.book-block__subtitle {
+  color: var(--main-text-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.book-block__title {
+  color: #14183e;
+  font-size: 50px;
+  font-family: "Volkhov", serif;
+}
+
+.book-block__item {
+  margin: 50px 0 50px 0;
+}
+
+.book-block__item-img {
+  float: left;
+  margin-right: 20px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
+.book-block__item-title {
+  color: var(--main-text-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.book-block__item-text {
+  color: var(--main-text-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.book-block__card {
+  width: 400px;
+  height: 450px;
+  box-shadow: 50px -35px 100px -2px rgb(211, 237, 255),
+    0 30px 30px -10px rgb(228, 228, 228);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.book-block__img-wrapper {
+  border: 2px solid black;
+  box-shadow: 0 15px 6px -10px rgb(205, 205, 205);
+  border-radius: 20px;
+  height: 50%;
+}
+
+.book-block__card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.book-block__card-title {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #080809;
+  margin: 25px 0 10px 0;
+}
+
+.book-block__card-date {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #84829a;
+}
+
+.book-block__details-img {
+  margin: 20px 15px 25px 0;
+}
+
+.book-block__town-img {
+  float: left;
+  margin-right: 15px;
+}
+
+.book-block__card-people {
+  font-family: "Poppins", sans-serif;
+  color: #84829a;
 }
