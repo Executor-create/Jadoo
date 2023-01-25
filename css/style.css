@@ -382,6 +382,11 @@
 .book-block__card-people {
   font-family: "Poppins", sans-serif;
   color: #84829a;
+  float: left;
+}
+
+.book-block__heart-img {
+  float: right;
 }
 
 .about-block {
@@ -440,4 +445,24 @@
   position: absolute;
   top: -40px;
   left: -40px;
+}
+
+.partners-block {
+  height: 300px;
+}
+
+.partners-block__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.partners-block__img {
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.partners-block__img:hover {
+  filter: grayscale(0);
 }
