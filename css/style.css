@@ -383,3 +383,61 @@
   font-family: "Poppins", sans-serif;
   color: #84829a;
 }
+
+.about-block {
+  height: 450px;
+}
+
+.about-block__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-block__subtitle {
+  color: var(--main-text-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about-block__title {
+  color: #14183e;
+  font-size: 50px;
+  font-family: "Volkhov", serif;
+}
+
+.about-block__card {
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 25px 30px -10px rgb(226, 226, 226);
+  position: relative;
+}
+
+.about-block__card-text {
+  font-family: "Poppins", sans-serif;
+  color: var(--main-text-color);
+  line-height: 2em;
+  margin-bottom: 30px;
+}
+
+.about-block__card-name {
+  color: var(--main-text-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.about-block__card-country {
+  color: var(--main-text-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.about-block__card-img {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+}
