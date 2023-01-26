@@ -594,7 +594,11 @@
   cursor: pointer;
   border: none;
   border-radius: 10px;
-  background-color: #ff946d;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 148, 109, 1) 35%,
+    rgba(255, 125, 104, 1) 100%
+  );
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   padding: 15px;
